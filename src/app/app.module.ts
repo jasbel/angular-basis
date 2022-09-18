@@ -5,11 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountComponent } from './count/count/count.component';
 import { CountModule } from './count/count/count.module';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroesModule } from './heroes/heroes.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HeroesModule, CountModule],
+  imports: [BrowserModule, AppRoutingModule, HeroesModule, CountModule, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
 })
